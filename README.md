@@ -54,7 +54,7 @@ Agora vamos criar nosso Template  no Zabbix e adicionar esse Item   :clap:
 
 ![Captura de tela de 2022-06-14 00-02-13](https://user-images.githubusercontent.com/102430464/173484660-1966cdff-ec62-4773-9d1d-4bfd28aeeb74.png)
 
-![Captura de tela de 2022-06-14 00-02-44](https://user-images.githubusercontent.com/102430464/173484683-0a421889-19d1-408d-9236-c0e7ecbac877.png)
+![Captura de tela de 2022-06-14 00-05-13](https://user-images.githubusercontent.com/102430464/173484888-52432fa5-9053-421e-935f-c78e1de9d358.png)
 
 
 
