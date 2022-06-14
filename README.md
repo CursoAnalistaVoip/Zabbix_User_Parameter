@@ -25,4 +25,5 @@ mkdir -p etc/sudoers.d/user_zabbix
 
 #Allow the user zabbix to execute any command without password
 > Defaults:zabbix !requiretty
+> 
 > zabbix  ALL=(ALL:ALL) NOPASSWD:/usr/sbin/asterisk
