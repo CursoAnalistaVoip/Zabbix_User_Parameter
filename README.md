@@ -5,7 +5,7 @@ Como utilizar o **UserParameter** para monitorar o Asterisk.
 
 
 
-A sintaxe do UserParameter é:eyes:
+A sintaxe do UserParameter é: eyes:
 
 
 > UserParameter=<chave_do_item>,<comando>
