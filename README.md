@@ -32,7 +32,7 @@ A sintaxe do **UserParameter** é  :eyes:
 Agora se faz necessario dar permissão no sudoers do Linux:
 
 
-mkdir -p etc/sudoers.d/user_zabbix
+vim /etc/sudoers.d/user_zabbix
 
 
 > #Allow the user zabbix to execute any command without password
