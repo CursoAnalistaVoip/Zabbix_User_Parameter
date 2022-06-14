@@ -14,7 +14,7 @@ A sintaxe do UserParameter é  :eyes:
   Exemplo:
   
   
-#systemctl status nginx
+
 
 
 
