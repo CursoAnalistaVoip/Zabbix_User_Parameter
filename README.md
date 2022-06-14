@@ -24,7 +24,8 @@ A sintaxe do **UserParameter** é  :eyes:
   
   ![Captura de tela de 2022-06-13 23-50-15](https://user-images.githubusercontent.com/102430464/173483121-55c7ca12-8166-4bd4-a9e2-b92fc71f730d.png)
   
-  Outra sáida de comando utilizando o comando **grep** para verificar se a conda está registrada  
+  Outra sáida de comando utilizando o comando **grep** para verificar se a conda está registrada  utilizando o comando **wc -l** para contar a linhas.
+  Caso a conta esteja registrada teremos 1 linha na saida desse comando.
   
   ![Captura de tela de 2022-06-13 23-51-49](https://user-images.githubusercontent.com/102430464/173483327-bc015137-8a9d-4622-8caa-cba616514876.png)
 
