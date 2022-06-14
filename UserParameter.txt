@@ -1,0 +1,19 @@
+######### Uso do UserParameter no Agente Zabbix: #######################
+
+#### Monitoramento do servidor WEB
+UserParameter=status.nginx, systemctl status nginx | grep running > /dev/null 2>&1 ; echo $?
+
+####  UserParameter Monitoramento de linha VOIP
+UserParameter=linha.voip,sudo /usr/sbin/asterisk -rx "pjsip show registrations" | grep 5857658 | grep Registered | wc -l
+#
+##### UserParameter Calls processed
+UserParameter=call.processed,sudo /usr/sbin/asterisk -rx "core show channels" |grep "calls processed"|awk '{print$1}'
+#
+##### UserParameter Status Version
+UserParameter=status.version, sudo /usr/sbin/asterisk -rx "core show version" |grep "Asterisk"|awk '{print$2}'
+#
+##### UserParameter Quantidade Ramais Online PJSIP
+UserParameter=ramais.online, sudo /usr/sbin/asterisk -rx "pjsip show endpoints" | grep Avail | wc -l
+#
+##### UserParameter Ligacaoes simultaneas 
+UserParameter=active.calls, sudo /usr/sbin/asterisk -rx "core show channels" |grep "active calls" | awk '{print$1}'
