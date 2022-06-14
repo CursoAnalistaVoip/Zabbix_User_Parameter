@@ -15,5 +15,6 @@ A sintaxe do UserParameter é  :eyes:
   
   
 # systemctl status nginx
- file:///home/souza/Imagens/Captura%20de%20tela%20de%202022-06-13%2023-27-37.png
+
  
+![Captura de tela de 2022-05-11 22-16-47](https://user-images.githubusercontent.com/102430464/173480800-864678bb-d0e8-42b0-a796-1eaa89ccb927.png)
