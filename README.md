@@ -24,7 +24,7 @@ Agora se faz necessario dar permissão no sudoers do Linux:
 mkdir -p etc/sudoers.d/user_zabbix
 
 
-> Allow the user zabbix to execute any command without password
+> #Allow the user zabbix to execute any command without password
 > 
 > Defaults:zabbix !requiretty
 > 
