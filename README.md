@@ -23,12 +23,10 @@ A sintaxe do **UserParameter** é  :eyes:
   ![Captura de tela de 2022-06-13 23-51-49](https://user-images.githubusercontent.com/102430464/173483327-bc015137-8a9d-4622-8caa-cba616514876.png)
 
 
+  Esse comando nos trouxe o resultado **0** , poís a conta SIP 5857658 não está registrada.
   
   
-
-
-
-
+  
 
 
 Agora se faz necessario dar permissão no sudoers do Linux:
