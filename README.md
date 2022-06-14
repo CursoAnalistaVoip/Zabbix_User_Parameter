@@ -47,7 +47,20 @@ mkdir -p etc/sudoers.d/user_zabbix
 > **systemctl restart zabbix-agent**
 
 
-> Agora vamos criar nosso item no Zabbix   :clap:
+Agora vamos criar nosso Template  no Zabbix e adicionar esse Item   :clap:
+
+
+![Captura de tela de 2022-06-14 00-01-35](https://user-images.githubusercontent.com/102430464/173484639-6a3cbfa2-2f9c-4741-a8a5-73d93dccd5a5.png)
+
+![Captura de tela de 2022-06-14 00-02-13](https://user-images.githubusercontent.com/102430464/173484660-1966cdff-ec62-4773-9d1d-4bfd28aeeb74.png)
+
+![Captura de tela de 2022-06-14 00-02-44](https://user-images.githubusercontent.com/102430464/173484683-0a421889-19d1-408d-9236-c0e7ecbac877.png)
+
+
+
+
+
+
 
 
 
