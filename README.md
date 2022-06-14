@@ -16,9 +16,15 @@ A sintaxe do **UserParameter** é  :eyes:
   
   UserParameter=linha.voip,sudo /usr/sbin/asterisk -rx "pjsip show registrations" | grep 5857658 | grep Registered | wc -l
   
+  Comando no asterisk que verifica o registro da conta Voip
+  
   ![Captura de tela de 2022-06-13 23-49-20](https://user-images.githubusercontent.com/102430464/173483024-f7f47b01-a261-47b1-b69f-616ff9dfe8aa.png)
   
+  Saida do comando utilizando o comando **grep** para separar a conta Voip que desejamos monitorar. 
+  
   ![Captura de tela de 2022-06-13 23-50-15](https://user-images.githubusercontent.com/102430464/173483121-55c7ca12-8166-4bd4-a9e2-b92fc71f730d.png)
+  
+  Outra sáida de comando utilizando o comando **grep** para verificar se a conda está registrada  
   
   ![Captura de tela de 2022-06-13 23-51-49](https://user-images.githubusercontent.com/102430464/173483327-bc015137-8a9d-4622-8caa-cba616514876.png)
 
