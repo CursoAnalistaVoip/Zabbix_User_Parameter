@@ -43,5 +43,11 @@ mkdir -p etc/sudoers.d/user_zabbix
 
 ![Captura de tela de 2022-06-13 23-44-53](https://user-images.githubusercontent.com/102430464/173482560-9487a7e3-2bf0-43df-8125-86d5f5570396.png)
 
+ #Reinicie o serviço do Zabbix Agent: :+1: 
+> **systemctl restart zabbix-agent**
+
+
+> Agora vamos criar nosso item no Zabbix   :clap:
+
 
 
